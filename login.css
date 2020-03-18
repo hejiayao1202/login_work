@@ -1,0 +1,49 @@
+#left{
+    width: 800px;
+    height: 550px;
+    background-image: url("./background.png");
+    background-size: 100% 100%;
+    float: left;
+}
+#right{
+    width: 400px;
+    height: 550px;
+    float: right;
+    margin-right: 40px;
+}
+#title{
+    margin-left: 30px;
+}
+#smalltit{
+    margin: 20px 5px 0 30px;
+    color: lightslategray;
+}
+input{
+    margin: 20px 0 0 5px;
+    height: 40px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3px;
+}
+input:last-child{
+    margin-left: 30px;
+    width: 320px;
+    color: white;
+    background-color: rgb(0, 174, 255);
+    border: 1px solid rgb(0, 174, 255);
+    border-radius: 20px;
+}
+#username,#tel,#pwd{
+    width: 250px;
+}
+#username,#tel,#pwd,#yan{
+    padding-left: 5px;
+}
+#get{
+    background-color: white;
+}
+p{
+    color: red;
+    margin: 3px 0 0 90px;
+    font-size: 10px;
+    display: none;
+}
